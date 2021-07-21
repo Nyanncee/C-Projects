@@ -1,0 +1,7 @@
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\Addform.g.cs
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\App.g.cs
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\Nancy_DataConverter_MarkupCompile.cache
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\Nancy_DataConverter_MarkupCompile.lref
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\Nancy_DataConverter.csprojAssemblyReference.cache
+C:\Users\pande\OneDrive\Desktop\Nancy_DataConverter\Nancy_DataConverter\obj\Debug\MainWindow.g.cs
