@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Car_RentalModelStoreContainer" CdmEntityContainer="Car_RentalEntities">
+    <EntitySetMapping Name="CarTypes">
+      <EntityTypeMapping TypeName="Car_RentalModel.CarType">
+        <MappingFragment StoreEntitySet="CarType">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="LicensePlateNumber" ColumnName="LicensePlateNumber" />
+          <ScalarProperty Name="VIN" ColumnName="VIN" />
+          <ScalarProperty Name="Car_Model" ColumnName="Car_Model" />
+          <ScalarProperty Name="Car_Make" ColumnName="Car_Make" />
+          <ScalarProperty Name="Car_Id" ColumnName="Car_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AddRecords">
+      <EntityTypeMapping TypeName="Car_RentalModel.AddRecord">
+        <MappingFragment StoreEntitySet="AddRecords">
+          <ScalarProperty Name="Car_Id" ColumnName="Car_Id" />
+          <ScalarProperty Name="date_Returned" ColumnName="date_Returned" />
+          <ScalarProperty Name="date_Rented" ColumnName="date_Rented" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Car_RentalModel.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="Shortname" ColumnName="Shortname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Car_RentalModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="Car_RentalModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
